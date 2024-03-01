@@ -27,7 +27,7 @@ contract MQuizContract {
     owner = msg.sender;
     }
 
-    function setAge(uint256 _age) public onlyOwner {
+    function setAge(uint256 _age) public {
     age = _age;
     }
 
